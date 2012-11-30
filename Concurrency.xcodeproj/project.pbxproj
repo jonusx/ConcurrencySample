@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90DF4F11668048C00C3B6DA /* threadEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F90DF4F01668048C00C3B6DA /* threadEngine.m */; };
+		F90DF4F416680A7A00C3B6DA /* nsoperationChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = F90DF4F316680A7A00C3B6DA /* nsoperationChooser.m */; };
 		F989506D164EA8A300EC5275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F989506C164EA8A300EC5275 /* UIKit.framework */; };
 		F989506F164EA8A300EC5275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F989506E164EA8A300EC5275 /* Foundation.framework */; };
 		F9895071164EA8A300EC5275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9895070164EA8A300EC5275 /* CoreGraphics.framework */; };
@@ -18,15 +20,22 @@
 		F9895083164EA8A300EC5275 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9895082164EA8A300EC5275 /* Default@2x.png */; };
 		F9895085164EA8A300EC5275 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9895084164EA8A300EC5275 /* Default-568h@2x.png */; };
 		F9895088164EA8A300EC5275 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9895086164EA8A300EC5275 /* MainStoryboard.storyboard */; };
-		F989508B164EA8A300EC5275 /* Concurrency.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9895089164EA8A300EC5275 /* Concurrency.xcdatamodeld */; };
-		F989508E164EA8A300EC5275 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F989508D164EA8A300EC5275 /* MasterViewController.m */; };
-		F9895091164EA8A300EC5275 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9895090164EA8A300EC5275 /* DetailViewController.m */; };
 		F9895099164EA8A300EC5275 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9895098164EA8A300EC5275 /* SenTestingKit.framework */; };
 		F989509A164EA8A300EC5275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F989506C164EA8A300EC5275 /* UIKit.framework */; };
 		F989509B164EA8A300EC5275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F989506E164EA8A300EC5275 /* Foundation.framework */; };
 		F989509C164EA8A300EC5275 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9895072164EA8A300EC5275 /* CoreData.framework */; };
 		F98950A4164EA8A300EC5275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F98950A2164EA8A300EC5275 /* InfoPlist.strings */; };
 		F98950A7164EA8A300EC5275 /* ConcurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950A6164EA8A300EC5275 /* ConcurrencyTests.m */; };
+		F98950B2164EAB0700EC5275 /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950B1164EAB0700EC5275 /* mainView.m */; };
+		F98950B3164EAB0700EC5275 /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950B1164EAB0700EC5275 /* mainView.m */; };
+		F98950BA164EAC8F00EC5275 /* menuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950B9164EAC8F00EC5275 /* menuView.m */; };
+		F98950BB164EAC8F00EC5275 /* menuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950B9164EAC8F00EC5275 /* menuView.m */; };
+		F98950BE164EAE1500EC5275 /* nsopEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950BD164EAE1400EC5275 /* nsopEngine.m */; };
+		F98950BF164EAE1500EC5275 /* nsopEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950BD164EAE1400EC5275 /* nsopEngine.m */; };
+		F98950C2164EAF1300EC5275 /* myOp.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950C1164EAF1300EC5275 /* myOp.m */; };
+		F98950C3164EAF1300EC5275 /* myOp.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950C1164EAF1300EC5275 /* myOp.m */; };
+		F98950D9164EB93200EC5275 /* gcdEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950D8164EB93200EC5275 /* gcdEngine.m */; };
+		F98950DA164EB93200EC5275 /* gcdEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F98950D8164EB93200EC5275 /* gcdEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F90DF4EF1668048C00C3B6DA /* threadEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadEngine.h; sourceTree = "<group>"; };
+		F90DF4F01668048C00C3B6DA /* threadEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threadEngine.m; sourceTree = "<group>"; };
+		F90DF4F216680A7A00C3B6DA /* nsoperationChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsoperationChooser.h; sourceTree = "<group>"; };
+		F90DF4F316680A7A00C3B6DA /* nsoperationChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nsoperationChooser.m; sourceTree = "<group>"; };
 		F9895068164EA8A300EC5275 /* Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F989506C164EA8A300EC5275 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F989506E164EA8A300EC5275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,17 +68,22 @@
 		F9895082164EA8A300EC5275 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F9895084164EA8A300EC5275 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9895087164EA8A300EC5275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F989508A164EA8A300EC5275 /* Concurrency.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Concurrency.xcdatamodel; sourceTree = "<group>"; };
-		F989508C164EA8A300EC5275 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		F989508D164EA8A300EC5275 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		F989508F164EA8A300EC5275 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		F9895090164EA8A300EC5275 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F9895097164EA8A300EC5275 /* ConcurrencyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9895098164EA8A300EC5275 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F98950A1164EA8A300EC5275 /* ConcurrencyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConcurrencyTests-Info.plist"; sourceTree = "<group>"; };
 		F98950A3164EA8A300EC5275 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F98950A5164EA8A300EC5275 /* ConcurrencyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcurrencyTests.h; sourceTree = "<group>"; };
 		F98950A6164EA8A300EC5275 /* ConcurrencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcurrencyTests.m; sourceTree = "<group>"; };
+		F98950B0164EAB0700EC5275 /* mainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainView.h; sourceTree = "<group>"; };
+		F98950B1164EAB0700EC5275 /* mainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainView.m; sourceTree = "<group>"; };
+		F98950B8164EAC8F00EC5275 /* menuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuView.h; sourceTree = "<group>"; };
+		F98950B9164EAC8F00EC5275 /* menuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuView.m; sourceTree = "<group>"; };
+		F98950BC164EAE1400EC5275 /* nsopEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsopEngine.h; sourceTree = "<group>"; };
+		F98950BD164EAE1400EC5275 /* nsopEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nsopEngine.m; sourceTree = "<group>"; };
+		F98950C0164EAF1300EC5275 /* myOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myOp.h; sourceTree = "<group>"; };
+		F98950C1164EAF1300EC5275 /* myOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myOp.m; sourceTree = "<group>"; };
+		F98950D7164EB93100EC5275 /* gcdEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcdEngine.h; sourceTree = "<group>"; };
+		F98950D8164EB93200EC5275 /* gcdEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gcdEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,12 +148,21 @@
 			children = (
 				F989507D164EA8A300EC5275 /* AppDelegate.h */,
 				F989507E164EA8A300EC5275 /* AppDelegate.m */,
+				F98950B8164EAC8F00EC5275 /* menuView.h */,
+				F98950B9164EAC8F00EC5275 /* menuView.m */,
+				F90DF4F216680A7A00C3B6DA /* nsoperationChooser.h */,
+				F90DF4F316680A7A00C3B6DA /* nsoperationChooser.m */,
+				F98950B0164EAB0700EC5275 /* mainView.h */,
+				F98950B1164EAB0700EC5275 /* mainView.m */,
+				F90DF4EF1668048C00C3B6DA /* threadEngine.h */,
+				F90DF4F01668048C00C3B6DA /* threadEngine.m */,
+				F98950D7164EB93100EC5275 /* gcdEngine.h */,
+				F98950D8164EB93200EC5275 /* gcdEngine.m */,
+				F98950BC164EAE1400EC5275 /* nsopEngine.h */,
+				F98950BD164EAE1400EC5275 /* nsopEngine.m */,
+				F98950C0164EAF1300EC5275 /* myOp.h */,
+				F98950C1164EAF1300EC5275 /* myOp.m */,
 				F9895086164EA8A300EC5275 /* MainStoryboard.storyboard */,
-				F989508C164EA8A300EC5275 /* MasterViewController.h */,
-				F989508D164EA8A300EC5275 /* MasterViewController.m */,
-				F989508F164EA8A300EC5275 /* DetailViewController.h */,
-				F9895090164EA8A300EC5275 /* DetailViewController.m */,
-				F9895089164EA8A300EC5275 /* Concurrency.xcdatamodeld */,
 				F9895075164EA8A300EC5275 /* Supporting Files */,
 			);
 			path = Concurrency;
@@ -286,9 +313,13 @@
 			files = (
 				F989507B164EA8A300EC5275 /* main.m in Sources */,
 				F989507F164EA8A300EC5275 /* AppDelegate.m in Sources */,
-				F989508B164EA8A300EC5275 /* Concurrency.xcdatamodeld in Sources */,
-				F989508E164EA8A300EC5275 /* MasterViewController.m in Sources */,
-				F9895091164EA8A300EC5275 /* DetailViewController.m in Sources */,
+				F98950B2164EAB0700EC5275 /* mainView.m in Sources */,
+				F98950BA164EAC8F00EC5275 /* menuView.m in Sources */,
+				F98950BE164EAE1500EC5275 /* nsopEngine.m in Sources */,
+				F98950C2164EAF1300EC5275 /* myOp.m in Sources */,
+				F98950D9164EB93200EC5275 /* gcdEngine.m in Sources */,
+				F90DF4F11668048C00C3B6DA /* threadEngine.m in Sources */,
+				F90DF4F416680A7A00C3B6DA /* nsoperationChooser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +328,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98950A7164EA8A300EC5275 /* ConcurrencyTests.m in Sources */,
+				F98950B3164EAB0700EC5275 /* mainView.m in Sources */,
+				F98950BB164EAC8F00EC5275 /* menuView.m in Sources */,
+				F98950BF164EAE1500EC5275 /* nsopEngine.m in Sources */,
+				F98950C3164EAF1300EC5275 /* myOp.m in Sources */,
+				F98950DA164EB93200EC5275 /* gcdEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +498,7 @@
 				F98950AC164EA8A300EC5275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F98950AD164EA8A300EC5275 /* Build configuration list for PBXNativeTarget "ConcurrencyTests" */ = {
 			isa = XCConfigurationList;
@@ -470,21 +507,9 @@
 				F98950AF164EA8A300EC5275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F9895089164EA8A300EC5275 /* Concurrency.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F989508A164EA8A300EC5275 /* Concurrency.xcdatamodel */,
-			);
-			currentVersion = F989508A164EA8A300EC5275 /* Concurrency.xcdatamodel */;
-			path = Concurrency.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F989505F164EA8A300EC5275 /* Project object */;
 }
