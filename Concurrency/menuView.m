@@ -19,6 +19,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     mainView *mv = segue.destinationViewController;
+    
     if ([segue.identifier isEqualToString:@"NSOperation"]) {
         mv.myType = nsopType;
     }
